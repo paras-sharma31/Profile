@@ -1,0 +1,103 @@
+.profile {
+    width: 100%;
+}
+
+.container {
+    width: 65%;
+    height: 90vh;
+    margin: 30px auto;
+    background-color: rgb(240, 243, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 312px;
+    height: 459px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.userProfile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(152, 50, 80);
+    padding: 10px 0px 10px;
+    border: 1px solid #983298;
+    border-radius: 25px 25px 0 0;
+    height: 120px;
+}
+
+.image {
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.lowerPart {
+    padding-top: 40px;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.username h2 {
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+}
+
+.username p {
+    color: gray;
+    font-size: 12px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.about {
+    padding: 30px;
+}
+
+.about p {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 11px;
+    color: black;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.followBtns {
+    background-color: #E03F8C;
+    border-radius: 25px;
+    padding: 9px 40px;
+    color: whitesmoke;
+    font-size: 11px;
+}
+
+.Message {
+    font-size: 11px;
+    border-radius: 25px;
+    padding: 9px 35px;
+    border: 1px solid gray;
+    color: gray;
+}
